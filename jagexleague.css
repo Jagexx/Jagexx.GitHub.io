@@ -412,8 +412,6 @@
 #chat .chat-container .chat-messages .chat-main{
 	padding-left:1.5rem !important;
 }
-#chat .chatDelete { z-index: 500; }
-}
 #chat .chat-container .chat-messages .chat-main li, #chat .chat-container .chat-messages .chat-main .stream-item-content, #chat .chat-container .chat-messages .chat-main .image_row {
     overflow: visible !important;
 }
@@ -441,6 +439,8 @@ li[class~="owner"] .username:before{
 }
 li[class~="creator"] .username:before{
 	content:url("https://i.imgur.com/sBrbc3J.png");
+}
+#chat .chatDelete { z-index: 500; }
 }
 /*hats*/
 li[class~="resident-dj"] .image_row:before{
