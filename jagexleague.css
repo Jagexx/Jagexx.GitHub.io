@@ -440,8 +440,6 @@ li[class~="owner"] .username:before{
 li[class~="creator"] .username:before{
 	content:url("https://i.imgur.com/sBrbc3J.png");
 }
-#chat .chatDelete { z-index: 500; }
-}
 /*hats*/
 li[class~="resident-dj"] .image_row:before{
 	content:"";
@@ -544,6 +542,8 @@ li[class~="creator"] .image_row:before{
     position: absolute;
     left: -33%;
     top: -38%;
+}
+#chat .chatDelete { z-index: 500; }
 }
 /*===Colors===*/
 li[class~="resident-dj"] .username, li[class~="resident-dj"] .user-role, li[class~="resident-dj"] .dubs {
